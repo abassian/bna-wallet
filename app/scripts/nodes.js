@@ -84,7 +84,7 @@ nodes.nodeList = {
         abiList: [],
         service: "Abassian.network",
         abiList: require("./abiDefinitions/bna.json"),
-        lib: new nodes.customNode("http://localhost", "8515")
+        lib: new nodes.customNode("https://wallet.abassian.com", "8515")
     },
     bna_testnet3: {
         name: "BNA Testnet 3.0",
